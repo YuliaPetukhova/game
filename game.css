@@ -1,0 +1,60 @@
+html {
+    font-family: Montserrat;
+    background: rgb(212, 244, 247);
+    font-size: 15px;
+  }
+
+  body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    font-size: 19px;
+  }
+  
+  .form input[type="number"] {
+    width: 200px;
+  }
+
+  .lastResult {
+    color: rgb(255, 255, 255);
+    padding: 13px;
+  }
+
+  .form {
+    padding: 15px 9px;
+    margin: 7px 2px;
+}
+.guessField {
+}
+.guessSubmit {
+    border-radius: 21px;
+	display: flex;
+	min-height: 48px;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.2px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 150%;
+	padding: 16px 12px;
+	margin: -37px 338px;
+	transition: all 0.3s ease 0s;
+  	background: rgb(36, 99, 104);
+	color: #fff;
+	border: 1px solid rgb(157, 255, 234);
+	
+}
+.guessSubmit:hover{
+    border: 1px solid  rgb(36, 99, 104);
+	background-color: #ffffff;
+	color: rgb(36, 99, 104);
+}
+.resultParas {
+}
+.guesses {
+}
+.lastResult {
+}
+.lowOrHi {
+}
